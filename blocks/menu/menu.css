@@ -1,0 +1,115 @@
+.menu {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: end;
+}
+
+.menu__items {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__list {
+    margin: 0 2px;
+}
+
+.menu__link {
+    position: relative;
+    font-size: 16px;
+    line-height: 34px;
+    font-weight: 700;
+    display: block;
+    padding: 0px 20px;
+    border-width: 0;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #727272;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+
+}
+
+.menu__link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #cc2e78;
+    z-index: -1;
+    border-radius: 3px;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform .3s;
+    transition: transform .3s;
+
+}
+
+.menu__link:hover {
+    color: #fff;
+}
+
+.menu__link:hover:before {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.menu__link_active {
+    background: #cc2e78;
+    color: #ffffff;
+}
+
+.menu__items-sub {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
+    list-style: none;
+    background: #ffffff;
+    position: absolute;
+    min-width: 150px;
+    padding: 0;
+    max-width: 240px;
+    flex-wrap: nowrap;
+}
+
+.menu__list-sub {
+    margin: 15px 0;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.border-top {
+    border-bottom: 4px solid #cc2e78;
+    padding-top: 20px;
+}
+
+.menu__link-sub {
+    color: #969696;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: none;
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.menu__list-sub:hover {
+    color: #cc2e78;
+    border-left: 3px solid #cc2e78;
+    padding: 0 15px;
+}
+
+.menu__opened {
+    height: 352px;
+    visibility: visible;
+    opacity: 1;
+    overflow: visible;
+}
