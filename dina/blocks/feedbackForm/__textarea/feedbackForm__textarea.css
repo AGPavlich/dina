@@ -1,0 +1,23 @@
+.feedbackForm__textarea {
+    width: 100%;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #cfcfcf;
+    outline: 0;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #fff;
+    color: #797979;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.feedbackForm__textarea:focus {
+    box-shadow: 0 0 15px #7a956b;
+   }

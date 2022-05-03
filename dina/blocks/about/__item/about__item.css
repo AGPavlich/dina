@@ -1,0 +1,8 @@
+.about__item {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #797979;
+    margin: 0 0 18px;
+    list-style-type: none;
+}

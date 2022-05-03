@@ -1,0 +1,21 @@
+h2 {
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 30px;
+}
+
+p, ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.page {
+    font-weight: 500;
+    font-family: 'Releway', Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+}

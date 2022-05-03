@@ -1,0 +1,7 @@
+.links {
+    transition: color 0.4s;
+}
+
+.links:hover {
+    transition: color 0.4s;
+}

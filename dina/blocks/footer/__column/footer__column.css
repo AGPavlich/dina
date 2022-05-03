@@ -1,0 +1,8 @@
+.footer__column {
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.footer__column:not(:last-child) {
+    border-right: 1px solid rgba(121, 121, 121, .3);
+}

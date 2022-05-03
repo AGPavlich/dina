@@ -1,0 +1,29 @@
+.why__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 40px;
+    margin-left: 0;
+    text-align: left;
+    background-color: #484bc7;
+}
+
+.why__container:nth-child(2) {
+    background-color: #cc8b4a;
+}
+
+.why__container:nth-child(3) {
+    background-color: #26273f;
+}
+
+.why__container:nth-child(4) {
+    background-color: #26273f;
+}
+
+.why__container:nth-child(5) {
+    background-color: #16b095;
+}
+
+.why__container:nth-child(6) {
+    background-color: #f88749;
+}

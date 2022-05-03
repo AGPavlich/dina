@@ -1,0 +1,8 @@
+.button__about {
+    margin-top: 12px;
+}
+
+.button__about:hover {
+    transition: background-color 0.6s;
+    background-color: #bb345a;
+}

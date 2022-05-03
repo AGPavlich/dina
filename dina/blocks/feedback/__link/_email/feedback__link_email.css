@@ -1,0 +1,9 @@
+.feedback__link_email {
+    text-decoration: none;
+    color: #504e4e;
+    font-weight: 700;
+}
+
+.feedback__link_email:hover {
+    color: #000000;
+}

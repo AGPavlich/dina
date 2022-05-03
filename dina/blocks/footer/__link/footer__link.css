@@ -1,0 +1,15 @@
+.footer__link {
+    font-size: 14px;
+    display: block;
+    margin: 0;
+    padding: 5px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #fff;
+    transition: color 0.4s;
+}
+
+.footer__link:hover {
+    color: #cc2e78;
+    transition: color 0.4s;
+}

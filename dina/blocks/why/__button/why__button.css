@@ -1,0 +1,15 @@
+.why__button {
+    padding: 15px 43px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #c11a4a;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.why__button:hover {
+    color: #fff;
+    background-color: #a6103b;
+}

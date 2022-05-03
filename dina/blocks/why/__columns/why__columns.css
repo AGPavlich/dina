@@ -1,0 +1,8 @@
+.why__columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 720px 600px;
+    justify-content: center;
+    gap: 30px;
+    align-content: space-between;
+}
