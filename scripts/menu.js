@@ -1,3 +1,5 @@
+
+
 const el = document.getElementsByClassName('menu__list');
 
 for (let i=0; i<el.length; i++) {
@@ -25,3 +27,5 @@ function menuClose (e) {
        return false;
     }
 }
+
+
